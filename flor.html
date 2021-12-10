@@ -55,15 +55,33 @@
         left: 175px;
         position: relative;
       }
+      .flor {
+        animation-name: rotacion;
+        animation-duration: 2s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-delay: 1s;
+        transform-origin: 200px 200px;
+      }
+      @keyframes rotacion {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
     </style>
   </head>
   <body>
-    <div class="petalo primero"></div>
-    <div class="petalo segundo"></div>
-    <div class="petalo tercero"></div>
-    <div class="petalo cuarto"></div>
-    <div class="petalo quinto"></div>
-    <div class="petalo sexto"></div>
-    <div class="corazon"></div>
+    <div class="flor">
+      <div class="petalo primero"></div>
+      <div class="petalo segundo"></div>
+      <div class="petalo tercero"></div>
+      <div class="petalo cuarto"></div>
+      <div class="petalo quinto"></div>
+      <div class="petalo sexto"></div>
+      <div class="corazon"></div>
+    </div>
   </body>
 </html>
