@@ -1,0 +1,136 @@
+body {
+  background-color: white;
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #666;
+}
+h1 {
+  margin: 0;
+  color: #CCC;
+  width: 390px;
+  padding: 30px;
+}
+p {
+  margin: 0;
+  font-size: 18px;
+  line-height: 22px;  /* interlineado*/
+  width: 390px;
+  padding: 0 30px 12px 30px;
+
+  /* tipos de padding
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px; */
+
+}
+.blanca {
+  background-color: white;
+}
+.verda {
+  background-color: #6C3;
+  height: 550px;
+}
+.fosca {
+  background-color: #333333;
+}
+.clara {
+  background: #EEECEE
+}
+#menu {
+  height: 40px;
+
+}
+#tot {
+  height: 641px;
+  background-image: url(../img/allinone.jpg);
+  background-repeat: no-repeat;
+  background-position: 400px;
+}
+#util {
+  height: 500px;
+  background-image: url(../img/curator-short.png);
+  background-repeat: no-repeat;
+  background-position: 400px;
+}
+#descarrega {
+  height: 200px;
+  text-align: center;
+
+}
+#rapid {
+  height: 550px;
+  background-image: url(../img/img-hero-full-list.png);
+  background-repeat: no-repeat;
+  background-position: 400px;
+}
+#arreu {
+  height: 643px;
+  background-image: url(../img/anywhere.png);
+  background-repeat: no-repeat;
+  background-position: 400px;
+}
+#coneix {
+  background-image: url(../img/img-hero-full-list.png);
+  background-repeat: no-repeat;
+  background-position: 400px;
+}
+#facil {
+  background-image: url(../img/mobile-share.png);
+  background-repeat: no-repeat;
+  background-position: 400px 13px;
+}
+#descarrega img {
+  padding: 30px;
+}
+li {
+  list-style-type: none;
+  background-color: lightgrey;
+  margin-right: 5px;
+  margin-left: 5px;
+  display: inline-block;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 6px;
+}
+
+li:hover {
+  background-color: blue;
+}
+
+
+ul {
+  display: inline-block;
+  vertical-align: top;
+  padding: 0;
+  height: 30px;
+  text-align: right;
+  margin: 0;
+}
+a:link {
+  color: blue;
+}
+a:hover {
+  background-color: blue;
+}
+a:active {
+  background-color: black;
+}
+a:visited {
+  color: orange;
+}
+
+#torna {
+  height: 50px;
+  width: 50px;
+  background-color: yellow;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  border-radius: 25px;
+  font-size: 50px;
+  text-align: center;
+  line-height: 65px;
+  color: black;
+  box-shadow: black 3px 2px 2px;
+}

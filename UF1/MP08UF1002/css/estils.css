@@ -1,0 +1,49 @@
+
+
+div {
+  background-color: rgb(134, 2, 205);
+  height: 10em;
+  width: 10em; /*1em = 1 cuadratín*/
+}
+.flotatE {
+  float: left;
+  margin: 0 1em 1em 0;
+  background-image: url(../img/bingus.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.flotatR {
+  float: right;
+  margin: 0 0 1em 1em;
+  background-image: url(../img/fetchimage.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+.flotatC {
+  float: left;
+  margin: 0 0.5em 0.5em 0;
+  background-image: url(../img/descarga.jpeg);
+  background-size: 100% 100%;
+  width: 5em;
+  height: 5em;
+}
+h1 {
+  clear: both;
+}
+h2 {
+  clear: both;
+}
+span {
+  display: none;
+}
+.columna {
+  width: 40%;
+  margin: 0 5%;
+}
+.Esquerra {
+  float: left;
+
+}
+.Dreta {
+  float: right;
+}

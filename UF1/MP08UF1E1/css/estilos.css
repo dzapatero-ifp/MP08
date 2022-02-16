@@ -1,0 +1,71 @@
+body {
+  background-color: #222;
+  font-family: helvetica, sans-serif;
+}
+#torna {
+  height: 50px;
+  width: 1920px;
+  background-color: black;
+  opacity: 50%;
+  position: fixed;
+
+}
+h1 {
+  color: #FFF;
+  font-size: 22px;
+  font-family: helvetica, sans-serif;
+  margin-left: 20px;
+  clear: both;
+}
+h2 {
+  color: #CCC;
+  font-size: 14px;
+  align-items: center;
+  margin-top: -4px;
+  margin-left: 20px;
+}
+p {
+  color: #CCC;
+  font-size: 11px;
+  margin-left: 20px;
+  float: left;
+}
+p:last-child {
+  float: right;
+}
+img {
+  width: 175px;
+  margin-left: 20px;
+  border-radius: 5px;
+
+}
+img:hover {
+  opacity: 50%;
+}
+.docinteresante {
+  margin-top: 50px;
+}
+.pelpendientes {
+  float: none;
+}
+.sersiguiendo {
+  float: none;
+}
+.docvistos img{
+  filter: grayscale(100%);
+}
+.pelvistas {
+  float: none;
+}
+.pelvistas img{
+  filter: grayscale(100%);
+}
+.servistas {
+  float: none;
+}
+.servistas img{
+  filter: grayscale(100%);
+}
+div {
+  float: left;
+}
