@@ -1,3 +1,21 @@
 body {
+  width: 1000px;
+  height: 1000px;
   background: linear-gradient(to bottom right, rgb(244, 241, 223), rgb(230, 211, 180));
+  margin: auto;
+}
+
+.uf {
+  font-family: pacifico;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+.link {
+  color: rgb(93, 93, 93);
+  font-size: 1em;
+  font-weight: bold;
+  font-family: sans-serif, poppins;
+
+}
+ul {
 }
