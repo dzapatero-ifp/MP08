@@ -9,13 +9,55 @@ body {
   font-family: pacifico;
   font-weight: bold;
   font-size: 1.5em;
+  float: left;
+  margin: 1rem;
+  background-color: white;
+  border-radius: 50% 50% 0 0;
+  text-align: center;
+}
+.circulo {
+  width: 70px;
+  height: 70px;
+  background-color: rgb(237, 237, 237);
+  border: 0.5px solid black;
+  border-radius: 50%;
+  z-index: -1;
+  margin: 0 auto;
+
 }
 .link {
   color: rgb(93, 93, 93);
-  font-size: 1em;
+  font-size: 0.5rem;
   font-weight: bold;
   font-family: sans-serif, poppins;
+  text-decoration: none;
 
 }
-ul {
+nav ul li {
+    display: block;
+    margin: 0.1rem;
+    padding: 0.5rem;
+    width: 10rem;
+    position: relative;
+    margin: 0 auto;
+
+  }
+nav ul li ul{
+  display: none;
+  padding: 0;
+  margin: 0;
+  top: 0;
+  background-color: rgb(232, 232, 232);
+}
+nav ul li:hover ul{
+  position: absolute;
+  display: block;
+  top: 3.5rem;
+  left: 0;
+}
+nav ul:hover li ul li{
+  float: none;
+}
+nav ul li ul li:hover .link {
+  color: rgb(157, 53, 30);
 }
