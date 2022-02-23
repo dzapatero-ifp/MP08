@@ -1,6 +1,6 @@
 body {
   width: 1000px;
-  height: 1000px;
+  height: 2000px;
   background: linear-gradient(to bottom right, rgb(244, 241, 223), rgb(230, 211, 180));
   margin: auto;
 }
@@ -16,21 +16,23 @@ body {
   text-align: center;
 }
 .circulo {
-  width: 70px;
-  height: 70px;
+  width: 100px;
+  height: 100px;
   background-color: rgb(237, 237, 237);
   border: 0.5px solid black;
   border-radius: 50%;
   z-index: -1;
   margin: 0 auto;
+  overflow: hidden;
 
 }
 .link {
   color: rgb(93, 93, 93);
-  font-size: 0.5rem;
+  font-size: 0.8rem;
   font-weight: bold;
   font-family: sans-serif, poppins;
   text-decoration: none;
+  line-height: 2px;
 
 }
 nav ul li {
@@ -60,4 +62,47 @@ nav ul:hover li ul li{
 }
 nav ul li ul li:hover .link {
   color: rgb(157, 53, 30);
+}
+#bars {
+    height: 100px;
+    margin: auto;
+    position: relative;
+    top: -20px;
+    width: 100px;
+    overflow: hidden;
+    transform: rotate(180deg);
+    left: -7px;
+}
+.bar {
+   background: black;
+    height: 100px;
+    position: relative;
+    width: 15px;
+    animation: sound 0ms -800ms linear infinite alternate;
+    float: left;
+    margin-left: -4px;
+}
+
+@keyframes sound {
+    0% {
+       opacity: .1;
+        height: 20px;
+    }
+    100% {
+        opacity: .5;
+        height: 80px;
+    }
+
+}
+
+.bar:nth-child(1)  { left: 1px; animation-duration: 474ms; }
+.bar:nth-child(2)  { left: 5px; animation-duration: 433ms; }
+.bar:nth-child(3)  { left: 9px; animation-duration: 407ms; }
+.bar:nth-child(4)  { left: 13px; animation-duration: 458ms; }
+.bar:nth-child(5)  { left: 17px; animation-duration: 400ms; }
+.bar:nth-child(6)  { left: 21px; animation-duration: 427ms; }
+
+@keyframes:hover sound {
+  opacity: 0;
+  animation-duration: 1s;
 }
