@@ -1,7 +1,6 @@
 body {
   width: 1000px;
-  height: 2000px;
-  background: linear-gradient(to bottom right, rgb(244, 241, 223), rgb(230, 211, 180));
+  background: url(img/jojo2.jpg);
   margin: auto;
 }
 
@@ -15,10 +14,11 @@ body {
   border-radius: 50% 50% 0 0;
   text-align: center;
 }
-.circulo {
+.circulo:first-child {
   width: 100px;
   height: 100px;
-  background-color: white;
+  background-image: url(img/circulo.png);
+  background-size: 100%;
   border: 0.5px solid black;
   border-radius: 50%;
   z-index: -1;
@@ -33,7 +33,11 @@ body {
   font-family: sans-serif, poppins;
   text-decoration: none;
   line-height: 2px;
+  margin-top: 2em;
 
+}
+a {
+  text-decoration: none;
 }
 nav ul li {
     display: block;
@@ -49,13 +53,16 @@ nav ul li ul{
   padding: 0;
   margin: 0;
   top: 0;
-  background-color: rgb(232, 232, 232);
+  background-color: rgba(237, 236, 236, 0.90);
 }
 nav ul li:hover ul{
   position: absolute;
   display: block;
   top: 3.5rem;
   left: 0;
+  overflow-y: scroll;
+  height: 50vh;
+
 }
 nav ul:hover li ul li{
   float: none;
@@ -87,7 +94,7 @@ nav ul li ul li:hover .link {
 @keyframes sound {
     0% {
        opacity: .1;
-        height: 20px;
+       height: 20px;
     }
     100% {
         opacity: .5;
@@ -122,18 +129,81 @@ nav ul li ul li:hover .link {
 }
 
 .circulo:hover .bar {
-    animation: sound2 2s linear ;
+    animation: sound2 4s linear alternate ;
     animation-iteration-count: 1;
-
 }
+
 @keyframes sound2 {
   0% {
-    opacity: .6;
+    opacity: 0.3;
     height: 80px;
   }
-  100% {
-    opacity: .2;
+  90% {
+    opacity: 0.1;
     height: 0;
   }
+  100% {
+    opacity: 0;
+    height: 0;
+    display: none;
+  }
 
+}
+.circulo:hover .bar:nth-child(1) {
+  animation-duration: 1.5s;
+  opacity: 0.5;
+}
+.circulo:hover .bar:nth-child(2) {
+  animation-duration: 1s;
+  opacity: 1;
+}
+.circulo:hover .bar:nth-child(3) {
+  animation-duration: 1.1s;
+  opacity: 0.8;
+}
+.circulo:hover .bar:nth-child(4) {
+  animation-duration: 0.9s;
+  opacity: 0.4
+}
+.circulo:hover .bar:nth-child(5) {
+  animation-duration: 1.2s;
+  opacity: 0.2
+}
+.circulo:hover .bar:nth-child(6) {
+  animation-duration: 1.5s;
+  opacity: 0.5;
+}
+
+h2 {
+  position: absolute;
+  text-align: center;
+  top: 2em;
+  font-size: 6em;
+  color: rgb(23, 121, 152);
+  font-family: pacifico;
+  width: 500px;
+  background-color: red;
+
+  left: 250px;
+}
+
+.circulo:hover .circulo {
+    animation: sound3 4s linear;
+    animation-iteration-count: 1;
+}
+
+@keyframes sound3 {
+  0% {
+    background-image: url(img/jojo2.jpg);
+    opacity: 0;
+  }
+  100% {
+    background-image: url(img/jojo2.jpg);
+    opacity: 1;
+  }
+
+}
+
+img {
+  opacity: 0;
 }
