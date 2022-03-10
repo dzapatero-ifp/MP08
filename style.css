@@ -7,14 +7,16 @@ body {
 nav {
   margin: 0 auto;
   text-align: center;
+  z-index: -1;
+
 }
 
 .uf {
-  font-family: pacifico;
+  font-family: "pacifico", fantasy;
   font-weight: bold;
   font-size: 1.5em;
   float: left;
-  margin-left: 1rem;
+  margin: 1rem;
   background-color: white;
   border-radius: 50% 50% 0 0;
   text-align: center;
@@ -25,13 +27,27 @@ nav {
   background: white;
   background-size: cover;
   background-repeat: no-repeat;
-  back
   border: 0.5px solid black;
   border-radius: 50%;
   z-index: -1;
   margin: 0 auto;
   overflow: hidden;
 
+
+}
+.circulo::after {
+  content:"";
+  display: block;
+  width: 100px;
+  height: 100px;
+  background: red;
+  border: 0.5px solid black;
+  border-radius: 50%;
+  z-index: 1;
+  position: relative;
+  top: 0;
+  left: 0;
+  overflow: hidden;
 }
 nav ul li ul li a:nth-child(2) .circulo {
   background: red;
@@ -190,15 +206,26 @@ nav ul li ul li:hover .link {
 }
 
 h2 {
-  position: absolute;
-  top: 2em;
+  position: relative;
   font-size: 6em;
   color: rgb(23, 121, 152);
   font-family: pacifico;
-  width: 720px;
-
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  z-index: -2;
   overflow: hidden;
-  left: 500px;
+}
+h3 {
+  position: relative;
+  font-size: 3em;
+  color: rgb(98, 166, 187);
+  font-family: pacifico;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 2em;
+  z-index: -2;
 }
 
 li a:nth-child(3) .circulo {
@@ -206,9 +233,12 @@ li a:nth-child(3) .circulo {
   background-size: cover;
   background-repeat: no-repeat;
 }
-
+#uno {
+  transition: 2s;
+}
 #uno:hover {
   background-image: url(img/feedly.png);
+  transition: 2s;
 }
 #dos:hover {
   background-image: url(img/floata.png);
@@ -230,6 +260,7 @@ li a:nth-child(3) .circulo {
 }
 #ocho:hover {
   background-image: url(img/flor.png);
+  background: none;
 }
 #nueve:hover {
   background-image: url(img/retrato.png);
