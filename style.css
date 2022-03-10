@@ -60,7 +60,7 @@ nav ul li ul li a:nth-child(2) .circulo {
   text-decoration: none;
   line-height: 2px;
   margin-top: 2em;
-
+  text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
 }
 a {
   text-decoration: none;
@@ -215,6 +215,7 @@ h2 {
   align-items: center;
   z-index: -2;
   overflow: hidden;
+
 }
 h3 {
   position: relative;
@@ -260,7 +261,6 @@ li a:nth-child(3) .circulo {
 }
 #ocho:hover {
   background-image: url(img/flor.png);
-  background: none;
 }
 #nueve:hover {
   background-image: url(img/retrato.png);
