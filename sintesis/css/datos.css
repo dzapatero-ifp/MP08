@@ -10,6 +10,14 @@ body {
 .titulo {
   height: 5rem;
 }
+.close {
+  float: right;
+  width: 10px;
+  height: 10px;
+  position: relative;
+  margin-top: .5rem;
+  margin-right: 1rem;
+}
 .texto {
   position: relative;
   top: 1.35rem;
@@ -71,6 +79,7 @@ button {
   color: #fff;
   border-radius: 10px;
   border: none;
+  pointer-events:
 }
 .flechas{
   position: relative;
