@@ -1,19 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es" dir="ltr" manifest="cache.manifest">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="style.css">
   <title>Document</title>
+  <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <meta name="theme-color" content="rgb(23, 121, 152)">
+  <meta name="msapplication-navbutton-color" content="rgb(23, 121, 152)">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="yes">
+  <link rel="shortcut icon" type="image/x-icon" href="">
 </head>
 <body>
-  <audio controls autoplay>
-    <source src="sonido/musica.mp3" type="audio/mp3">
-  </audio>
+  <div id="sound">
+    <input type="checkbox" id="alterna">
+    <label for="alterna"></label>
+    <ul class="desplega">
+      <audio controls autoplay class="sonido">
+        <source src="sonido/musica.mp3" type="audio/mp3">
+      </audio>
+    </ul>
+  </div>
   <nav>
     <ul class="actividades">
       <li class="uf">UF1

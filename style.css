@@ -271,3 +271,46 @@ li a:nth-child(3) .circulo {
 #once:hover {
 
 }
+input[type=checkbox] {
+  visibility: hidden;
+}
+#sound {
+  width: 2rem;
+  height: 2rem;
+  background: url(img/musica3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  border-radius: 50%;
+}
+
+#sound label {
+  width: 2rem;
+  height: 2rem;
+  background: black ;
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+  border-radius: 50%;
+  transition: all .2s ease;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.desplega {
+  position: absolute;
+  opacity: 1;
+  left: -22em;
+  transition: all .5s ease;
+}
+
+#sound input[type=checkbox]:checked+label {
+  opacity: 1;
+  left: 0;
+}
+#sound input[type=checkbox]:checked+label~.desplega {
+  opacity: 1;
+  left: 0;
+}
