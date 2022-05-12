@@ -33,6 +33,8 @@ body {
 .box {
   margin: 0 auto;
   margin-top: 5rem;
+  margin-bottom: 5rem;
+
   width: 20rem;
   height: 45rem;
   background-color: white;
