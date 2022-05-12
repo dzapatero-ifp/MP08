@@ -32,7 +32,9 @@ body {
 }
 .box {
   margin: 0 auto;
-  margin-top: 5rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+
   width: 20rem;
   height: 45rem;
   background-color: white;

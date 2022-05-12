@@ -18,7 +18,7 @@ body {
   border-radius: 50% 50% 50% 50%;
   position: relative;
   margin: 0 auto;
-  margin-top: -500px;
+  margin-top: 0px;
 }
 .cabello {
   height: 200px;
