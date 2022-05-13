@@ -35,6 +35,7 @@ body {
   height: 20rem;
   margin: 0 auto;
   position: relative;
+  background-color: red;
 }
 .puntos {
   margin: 0 auto;
@@ -53,7 +54,7 @@ body {
   border-radius: 50%;
   float: left;
 }
-.punto:nth-child(2) {
+.punto:nth-child(1) {
 background-color: rgba(149, 193, 31, 0.5);
 }
 .punto:nth-child(3) {
