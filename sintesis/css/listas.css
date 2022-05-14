@@ -10,7 +10,7 @@ body {
 .titulo {
   height: 5rem;
 }
-.profile {
+.texto {
   position: relative;
   height: 2.3rem;
   width:20rem;
@@ -18,3 +18,148 @@ body {
   font-family: 'Quicksand', sans-serif;
   font-size: 3em;
 }
+.listas {
+  width: 100%;
+  margin: 0 auto;
+  height: 36rem;
+  margin-top: 2rem;
+}
+.lista {
+  position: relative;
+  margin: 0 auto;
+  width: 20rem;
+  height: 6rem;
+  background-color: rgb(149, 193, 31);
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+.lista:nth-child(1) {
+  background-image: url(../img/temauno.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.lista:nth-child(2) {
+  background-image: url(../img/tematres.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.lista:nth-child(3) {
+  background-image: url(../img/temacuatro.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.lista:nth-child(4) {
+  background-image: url(../img/temacinco.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+h1 {
+  color: white;
+  position: relative;
+  height: 1.7rem;
+  left: 1rem;
+
+}
+.usuarios {
+  background-color: white;
+  width: 20rem;
+  height: 3rem;
+}
+.usuario {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: white;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  float: left;
+}
+.usuario:nth-child(1) {
+  background-image: url(../img/tu.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.usuario:nth-child(2) {
+  background-image: url(../img/amigouno.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.usuario:nth-child(3) {
+  background-image: url(../img/amigodos.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.usuario:nth-child(4) {
+  background-image: url(../img/amigotres.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.otros {
+  background-color: rgba(36, 36, 36, 0.3);
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  margin: 0 auto;
+  position: relative;
+}
+.otro {
+  top: 0.75rem;
+  margin-left: 0.65rem;
+  width: 1.75rem;
+  position: relative;
+}
+.anadir {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: rgb(149, 193, 31);
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  float: left;
+  cursor: pointer;
+}
+.plus {
+  background-image: url(../img/anadir.svg);
+  background-size: 1.75rem 1.75rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 3rem;
+  height: 3rem;
+  margin: 0 auto;
+}
+.crear {
+  position: relative;
+  margin: 0 auto;
+  margin-top: 1.5rem;
+  width: 20rem;
+  height: 6rem;
+  background-color: rgb(149, 193, 31);
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.5);
+}
+.mas {
+  background-image: url(../img/anadir.svg);
+  background-size: 3rem 3rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 4rem;
+  height: 4rem;
+  border: 3px solid white;
+  border-radius: 50%;
+  position: relative;
+  margin: 0 auto;
+  top: 1rem;
+}
+.opciones {
+  width: 100%;
+  height: 7rem;
+  background-color: rgb(149, 193, 31);
+  position: fixed;
+  bottom: 0;
+}
+.lists {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  background-color: red;
+}
+.p
