@@ -1,0 +1,306 @@
+body {
+  width:100%;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  font-family: 'Quicksand', sans-serif;
+}
+#cuadrouno {
+  width: 30rem;
+  height: 7rem;
+  float: left;
+  margin: 0 auto;
+  overflow:auto;
+  white-space: nowrap;
+}
+#cuadrouno button {
+  display: inline-block;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+.cuadrodos {
+  overflow-y: scroll;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 2rem;
+  width: 25.5rem;
+  height: 40rem;
+}
+.show {
+  display: block;
+}
+.btn {
+  border: none;
+  outline: none;
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  width: 5rem;
+  height: 5rem;
+  background-color: rgb(149, 193, 31);
+  cursor: pointer;
+}
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+#cat{
+  width: 3rem;
+  height: 3rem;
+  margin: 0 auto;
+  background-position: center;
+  background-size: 3rem 3rem;
+  background-repeat: no-repeat;
+}
+#catuno {
+  background-image: url(../img/carne.svg);
+  width: 3rem;
+  height: 3rem;
+  margin: 0 auto;
+  background-position: center;
+  background-size: 3rem 3rem;
+  background-repeat: no-repeat;
+}
+#catdos {
+  background-image: url(../img/fruta.svg);
+  width: 3rem;
+  height: 3rem;
+  margin: 0 auto;
+  background-position: center;
+  background-size: 3rem 3rem;
+  background-repeat: no-repeat;
+}
+#cattres {
+  background-image: url(../img/lacteos.svg);
+  width: 3rem;
+  height: 3rem;
+  margin: 0 auto;
+  background-position: center;
+  background-size: 3rem 3rem;
+  background-repeat: no-repeat;
+}
+#catcuatro {
+  background-image: url(../img/legumbres.svg);
+  width: 3rem;
+  height: 3rem;
+  margin: 0 auto;
+  background-position: center;
+  background-size: 3rem 3rem;
+  background-repeat: no-repeat;
+}
+#catcinco {
+  background-image: url(../img/oil.svg);width: 3rem;
+  height: 3rem;
+  margin: 0 auto;
+  background-position: center;
+  background-size: 3rem 3rem;
+  background-repeat: no-repeat;
+}
+#catseis {
+  background-image: url(../img/pescado.svg);
+  width: 3rem;
+  height: 3rem;
+  margin: 0 auto;
+  background-position: center;
+  background-size: 3rem 3rem;
+  background-repeat: no-repeat;
+}
+#catsiete {
+  background-image: url(../img/trigos.svg);
+  width: 3rem;
+  height: 3rem;
+  margin: 0 auto;
+  background-position: center;
+  background-size: 3rem 3rem;
+  background-repeat: no-repeat;
+}
+#catocho {
+  background-image: url(../img/verduras.svg);
+  width: 3rem;
+  height: 3rem;
+  margin: 0 auto;
+  background-position: center;
+  background-size: 3rem 3rem;
+  background-repeat: no-repeat;
+}
+.filterDiv {
+  float: left;
+  width: 12rem;
+  height: 12rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.filterDiv:nth-child(1) {
+  background-image: url(../img/carne1.png);
+}
+.filterDiv:nth-child(2) {
+  background-image: url(../img/carne2.png);
+}
+.filterDiv:nth-child(3) {
+  background-image: url(../img/carne3.png);
+}
+.filterDiv:nth-child(4) {
+  background-image: url(../img/carne4.png);
+}
+.filterDiv:nth-child(5) {
+  background-image: url(../img/carne5.png);
+}
+.filterDiv:nth-child(6) {
+  background-image: url(../img/fruta1.png);
+}
+.filterDiv:nth-child(7) {
+  background-image: url(../img/fruta2.png);
+}
+.filterDiv:nth-child(8) {
+  background-image: url(../img/fruta3.png);
+}
+.filterDiv:nth-child(9) {
+  background-image: url(../img/fruta4.png);
+}
+.filterDiv:nth-child(10) {
+  background-image: url(../img/fruta5.png);
+}
+.filterDiv:nth-child(11) {
+  background-image: url(../img/lacteo1.png);
+}
+.filterDiv:nth-child(12) {
+  background-image: url(../img/lacteo2.png);
+}
+.filterDiv:nth-child(13) {
+  background-image: url(../img/lacteo3.png);
+}
+.filterDiv:nth-child(14) {
+  background-image: url(../img/lacteo4.png);
+}
+.filterDiv:nth-child(15) {
+  background-image: url(../img/lacteo5.png);
+}
+.filterDiv:nth-child(16) {
+  background-image: url(../img/legumbre1.png);
+}
+.filterDiv:nth-child(17) {
+  background-image: url(../img/legumbre2.png);
+}
+.filterDiv:nth-child(18) {
+  background-image: url(../img/legumbre3.png);
+}
+.filterDiv:nth-child(19) {
+  background-image: url(../img/legumbre4.png);
+}
+.filterDiv:nth-child(20) {
+  background-image: url(../img/legumbre5.png);
+}
+.filterDiv:nth-child(21) {
+  background-image: url(../img/oil1.png);
+}
+.filterDiv:nth-child(22) {
+  background-image: url(../img/oil2.png);
+}
+.filterDiv:nth-child(23) {
+  background-image: url(../img/oil3.png);
+}
+.filterDiv:nth-child(24) {
+  background-image: url(../img/oil4.png);
+}
+.filterDiv:nth-child(25) {
+  background-image: url(../img/oil5.png);
+}
+.filterDiv:nth-child(26) {
+  background-image: url(../img/pescado1.png);
+}
+.filterDiv:nth-child(27) {
+  background-image: url(../img/pescado2.png);
+}
+.filterDiv:nth-child(28) {
+  background-image: url(../img/pescado3.png);
+}
+.filterDiv:nth-child(29) {
+  background-image: url(../img/pescado4.png);
+}
+.filterDiv:nth-child(30) {
+  background-image: url(../img/pescado5.png);
+}
+.filterDiv:nth-child(31) {
+  background-image: url(../img/trigo1.png);
+}
+.filterDiv:nth-child(32) {
+  background-image: url(../img/trigo2.png);
+}
+.filterDiv:nth-child(33) {
+  background-image: url(../img/trigo3.png);
+}
+.filterDiv:nth-child(34) {
+  background-image: url(../img/trigo4.png);
+}
+.filterDiv:nth-child(35) {
+  background-image: url(../img/trigo5.png);
+}
+.filterDiv:nth-child(36) {
+  background-image: url(../img/verdura1.png);
+}
+.filterDiv:nth-child(37) {
+  background-image: url(../img/verdura2.png);
+}
+.filterDiv:nth-child(38) {
+  background-image: url(../img/verdura3.png);
+}
+.filterDiv:nth-child(39) {
+  background-image: url(../img/verdura4.png);
+}
+.filterDiv:nth-child(40) {
+  background-image: url(../img/verdura5.png);
+}
+#catuno:hover .fruta .lacteos .legumbres .oil .pescado .trigos .verduras {
+  display: none;
+}
+.opciones {
+  width: 100%;
+  height: 7rem;
+  background-color: rgb(149, 193, 31);
+  position: fixed;
+  bottom: 0;
+  margin: 0 auto;
+}
+.bord {
+  position: relative;
+  margin: 0 auto;
+  top: 1rem;
+  width: 31rem;
+  height: 5rem;
+}
+.op {
+  float: left;
+  border: 2px solid white;
+  margin: 0 auto;
+  position: relative;
+  height: 5rem;
+  width: 5rem;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+  border-radius: 50%;
+  cursor: pointer;
+
+}
+#list {
+  background-color: rgb(149, 193, 31);
+}
+#profile {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+#maps {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.icons {
+  top: 1rem;
+  margin: 0 auto;
+  margin-left: 1rem;
+  width: 3rem;
+  height: 3rem;
+  position: relative;
+}
+a {
+  text-decoration: none;
+}

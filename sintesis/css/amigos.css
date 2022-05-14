@@ -66,6 +66,7 @@ input {
   background-color: rgb(149, 193, 31);
   border-radius: 50%;
   float: left;
+  cursor: pointer;
 }
 .punto:nth-child(1) {
   background-image: url(../img/whatsapp.png);
@@ -88,6 +89,7 @@ input {
 }
 .next {
   margin-bottom: 10rem;
+  cursor: pointer;
 }
 button {
   position: fixed;

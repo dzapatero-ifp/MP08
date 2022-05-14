@@ -1,0 +1,308 @@
+body {
+  width:100%;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  font-family: 'Quicksand', sans-serif;
+}
+.titulo {
+  height: 5rem;
+}
+input[type=checkbox] {
+  visibility: hidden;
+}
+#new {
+  width: 3rem;
+  height: 3rem;
+  background: url(../img/notif.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  right: 1rem;
+  z-index: 1000;
+}
+#new label {
+  width: 3rem;
+  height: 3rem;
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+  transition: all .2s ease;
+  cursor: pointer;
+  opacity: 0;
+}
+.desplega {
+  position: absolute;
+  opacity: 1;
+  top: -2rem;
+  right: -12rem;
+  transition: all .5s ease;
+}
+
+#new input[type=checkbox]:checked+label {
+  opacity: 1;
+  left: 0;
+}
+#new input[type=checkbox]:checked+label~.desplega {
+  opacity: 1;
+  right: 4rem;
+}
+.cuadro {
+  width: 10rem;
+  height: 20rem;
+  background-color: white;
+  border: 1px solid rgb(149, 193, 31);
+  overflow-y: scroll;
+  overflow-x: hidden;
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none;
+}
+.texto {
+  position: relative;
+  height: 2.3rem;
+  width:20rem;
+  margin-left: 2rem;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 3em;
+}
+.notif {
+  width: 145px;
+  height: 2rem;
+  border: 1px solid rgb(149, 193, 31);
+  font-size: 0.75em;
+  text-align: center;
+
+}
+.buscar {
+  height: 2rem;
+  width: 25rem;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 1rem;
+}
+.lupa {
+  left: 1rem;
+  top: 0.3rem;
+  height: 1.4rem;
+  width: 1.4rem;
+  position: relative;
+}
+.productos {
+  width: 100%;
+  margin: 0 auto;
+  height: 40rem;
+  overflow-y: scroll;
+  margin-top: 2rem;
+}
+.producto {
+  position: relative;
+  margin: 0 auto;
+  width: 28rem;
+  height: 5rem;
+  background-color: red;
+  cursor: pointer;
+  border: 0.1px solid rgb(149, 193, 31);
+}
+.producto:nth-child(1) {
+  background-color: yellow;
+}
+.producto:nth-child(2) {
+  background-color: red;
+}
+.producto:nth-child(3) {
+  background-color: rgb(149, 193, 31);
+}
+.producto:nth-child(4) {
+  background-color: rgb(149, 193, 31);
+}
+.producto:nth-child(5) {
+  background-color: yellow;
+}
+.producto:nth-child(6) {
+  background-color: red;
+}
+.producto:nth-child(7) {
+  background-color: rgb(149, 193, 31);
+}
+.producto:nth-child(8) {
+  background-color: yellow;
+}
+.producto:nth-child(9) {
+  background-color: yellow;
+}
+.producto:nth-child(10) {
+  background-color: rgb(149, 193, 31);
+}
+.producto:nth-child(11) {
+  background-color: red;
+}
+
+.info {
+  background-color: white;
+  width: 25rem;
+  height: 5rem;
+  position: absolute;
+  right: 0;
+}
+.recuadro {
+  height: 5rem;
+  width: 5rem;
+  float: left;
+  position: relative;
+}
+.categoria {
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+  background-color: rgb(149, 193, 31);
+  float: left;
+}
+#carne {
+  background-image: url(../img/carne.svg);
+  background-position: center;
+  background-size: 3rem 3rem;
+  background-repeat: no-repeat;
+}
+#legumbre {
+  background-image: url(../img/legumbres.svg);
+  background-position: center;
+  background-size: 3rem 3rem;
+  background-repeat: no-repeat;
+}
+#lacteo {
+  background-image: url(../img/lacteos.svg);
+  background-position: center;
+  background-size: 3rem 3rem;
+  background-repeat: no-repeat;
+}
+#pescado {
+  background-image: url(../img/pescado.svg);
+  background-position: center;
+  background-size: 3rem 3rem;
+  background-repeat: no-repeat;
+}
+#verdura {
+  background-image: url(../img/verduras.svg);
+  background-position: center;
+  background-size: 3rem 3rem;
+  background-repeat: no-repeat;
+}
+#frutas {
+  background-image: url(../img/fruta.svg);
+  background-position: center;
+  background-size: 3rem 3rem;
+  background-repeat: no-repeat;
+}
+#oil {
+  background-image: url(../img/oil.svg);
+  background-position: center;
+  background-size: 3rem 3rem;
+  background-repeat: no-repeat;
+}
+.nombre {
+  width: 13rem;
+  height: 5rem;
+  position: relative;
+  margin-left: 1rem;
+  line-height: 2.4rem;
+  font-size: 1.2em;
+  font-weight: bold;
+  float: left;
+}
+.otros {
+  width: 6rem;
+  height: 5rem;
+  position: relative;
+  margin-left: 19rem;
+  z-index: 999;
+}
+.precios {
+  width: 6rem;
+  height: 2rem;
+  font-size: 1.5em;
+  text-align: center;
+  line-height: 2rem;
+}
+.nutri {
+  color: white;
+  width: 6rem;
+  height: 2rem;
+}
+.valor {
+  width: 2rem;
+  height: 2rem;
+  font-size: 1.5em;
+  line-height: 2rem;
+  text-align: center;
+  margin: 0 auto;
+  margin-top:0.5rem;
+  border-radius: 50%;
+}
+#A {
+  background-color: rgb(44, 144, 9);
+}
+#C {
+  background-color: rgb(217, 210, 36);
+}
+#B {
+  background-color: rgb(175, 217, 36);
+}
+#D {
+  background-color: rgb(217, 133, 36);
+}
+#E {
+  background-color: rgb(217, 41, 36);
+}
+
+.opciones {
+  width: 100%;
+  height: 7rem;
+  background-color: rgb(149, 193, 31);
+  position: fixed;
+  bottom: 0;
+  margin: 0 auto;
+}
+.bord {
+  position: relative;
+  margin: 0 auto;
+  top: 1rem;
+  width: 31rem;
+  height: 5rem;
+}
+.op {
+  float: left;
+  border: 2px solid white;
+  margin: 0 auto;
+  position: relative;
+  height: 5rem;
+  width: 5rem;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+  border-radius: 50%;
+  cursor: pointer;
+
+}
+#list {
+  background-color: rgb(149, 193, 31);
+}
+#profile {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+#maps {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.icons {
+  top: 1rem;
+  margin: 0 auto;
+  margin-left: 1rem;
+  width: 3rem;
+  height: 3rem;
+  position: relative;
+}
+a {
+  text-decoration: none;
+}
