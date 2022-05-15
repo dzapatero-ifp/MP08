@@ -150,6 +150,7 @@ h1 {
   top: 1rem;
 }
 .opciones {
+  width: 100%;
   height: 7rem;
   background-color: rgb(149, 193, 31);
   position: fixed;
