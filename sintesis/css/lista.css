@@ -80,7 +80,7 @@ input[type=checkbox] {
 }
 .buscar {
   height: 2rem;
-  width: 25rem;
+  width: 20rem;
   margin: 0 auto;
   background-color: rgba(0, 0, 0, 0.3);
   border-radius: 1rem;
@@ -95,14 +95,14 @@ input[type=checkbox] {
 .productos {
   width: 100%;
   margin: 0 auto;
-  height: 40rem;
+  height: 30rem;
   overflow-y: scroll;
   margin-top: 2rem;
 }
 .producto {
   position: relative;
   margin: 0 auto;
-  width: 28rem;
+  width: 21rem;
   height: 5rem;
   background-color: red;
   cursor: pointer;
@@ -144,7 +144,7 @@ input[type=checkbox] {
 
 .info {
   background-color: white;
-  width: 25rem;
+  width: 20rem;
   height: 5rem;
   position: absolute;
   right: 0;
@@ -207,24 +207,25 @@ input[type=checkbox] {
   background-repeat: no-repeat;
 }
 .nombre {
-  width: 13rem;
-  height: 5rem;
+  width: 9rem;
+  height: 4rem;
+  top: 0.5rem;
   position: relative;
   margin-left: 1rem;
-  line-height: 2.4rem;
+  line-height: 1.5rem;
   font-size: 1.2em;
   font-weight: bold;
   float: left;
 }
 .otros {
-  width: 6rem;
+  width: 4rem;
   height: 5rem;
   position: relative;
-  margin-left: 19rem;
+  margin-left: 16rem;
   z-index: 999;
 }
 .precios {
-  width: 6rem;
+  width: 4rem;
   height: 2rem;
   font-size: 1.5em;
   text-align: center;
@@ -232,7 +233,7 @@ input[type=checkbox] {
 }
 .nutri {
   color: white;
-  width: 6rem;
+  width: 4rem;
   height: 2rem;
 }
 .valor {
