@@ -7,6 +7,13 @@ body {
   max-width: 100%;
   font-family: 'Quicksand', sans-serif;
 }
+.cerrar {
+  width: 10px;
+  height: 10px;
+  position: relative;
+  margin-bottom: 0.5rem;
+  margin-right: 1rem;
+}
 #cuadrouno {
   width: 30rem;
   height: 7rem;
@@ -253,7 +260,7 @@ body {
 .filterDiv:nth-child(40) {
   background-image: url(../img/verdura5.png);
 }
-#catuno:hover .fruta .lacteos .legumbres .oil .pescado .trigos .verduras {
+#catuno:active .fruta .lacteos .legumbres .oil .pescado .trigos .verduras {
   display: none;
 }
 .opciones {
