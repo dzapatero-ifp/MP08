@@ -260,6 +260,9 @@ body {
 .filterDiv:nth-child(40) {
   background-image: url(../img/verdura5.png);
 }
+.filterDiv:active {
+  display: none;
+}
 #catuno:active .fruta .lacteos .legumbres .oil .pescado .trigos .verduras {
   display: none;
 }
