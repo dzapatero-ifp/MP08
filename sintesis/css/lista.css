@@ -264,6 +264,7 @@ input[type=checkbox] {
   background-color: rgb(149, 193, 31);
   position: fixed;
   bottom: 0;
+  float: left;
   margin: 0 auto;
 }
 .bord {
@@ -278,8 +279,8 @@ input[type=checkbox] {
   border: 2px solid white;
   margin: 0 auto;
   position: relative;
-  height: 5rem;
-  width: 5rem;
+  height: 4rem;
+  width: 4rem;
   margin-left: 2.5rem;
   margin-right: 2.5rem;
   border-radius: 50%;
@@ -299,8 +300,8 @@ input[type=checkbox] {
   top: 1rem;
   margin: 0 auto;
   margin-left: 1rem;
-  width: 3rem;
-  height: 3rem;
+  width: 2rem;
+  height: 2rem;
   position: relative;
 }
 a {
