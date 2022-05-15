@@ -37,17 +37,20 @@ input[type=checkbox] {
   position: absolute;
   opacity: 1;
   top: -2rem;
-  right: -12rem;
+  right: 4rem;
   transition: all .5s ease;
+  display:none;
 }
 
 #new input[type=checkbox]:checked+label {
   opacity: 1;
-  left: 0;
+  right: 4rem;
 }
 #new input[type=checkbox]:checked+label~.desplega {
   opacity: 1;
+  top: -2rem;
   right: 4rem;
+  display: block;
 }
 .cuadro {
   width: 10rem;
