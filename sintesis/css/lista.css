@@ -20,7 +20,7 @@ input[type=checkbox] {
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
-  right: 1rem;
+  right: 2rem;
   z-index: 1000;
 }
 #new label {
@@ -266,6 +266,7 @@ input[type=checkbox] {
   height: 7rem;
   background-color: rgb(149, 193, 31);
   position: fixed;
+  z-index: 1000;
   bottom: 0;
   float: left;
   margin: 0 auto;
