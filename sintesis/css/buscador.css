@@ -261,18 +261,7 @@ body {
   background-image: url(../img/verdura5.png);
 }
 .filterDiv:active {
-  animation-name: desaparecer;
-  animation-duration: .5s;
-}
-@keyframes desaparecer {
-  0% {
-    transform: scale(100%);
-    display: block;
-  }
-  100% {
-    transform: scale(0%);
-    display: none;
-  }
+  display: none;
 }
 #catuno:active .fruta .lacteos .legumbres .oil .pescado .trigos .verduras {
   display: none;
