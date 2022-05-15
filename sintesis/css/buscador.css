@@ -279,8 +279,8 @@ body {
 .bord {
   position: relative;
   margin: 0 auto;
-  top: 1rem;
-  width: 31rem;
+  top: 1.5rem;
+  width: 25rem;
   height: 5rem;
 }
 .op {
@@ -290,8 +290,8 @@ body {
   position: relative;
   height: 4rem;
   width: 4rem;
-  margin-left: 2.5rem;
-  margin-right: 2.5rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
   border-radius: 50%;
   cursor: pointer;
 
@@ -300,10 +300,10 @@ body {
   background-color: rgb(149, 193, 31);
 }
 #profile {
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgb(193, 217, 128);
 }
 #maps {
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgb(193, 217, 128);
 }
 .icons {
   top: 1rem;
