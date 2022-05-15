@@ -91,9 +91,9 @@ a {
 }
 .puntos {
   margin: 0 auto;
-  margin-top: -12rem;
+  margin-top: -14rem;
   position: relative;
-  width: 28rem;
+  width: 24rem;
   float: left;
 
 }
@@ -101,8 +101,8 @@ a {
   margin: 0 auto;
   margin-left: 1rem;
   margin-right: 1rem;
-  width: 5rem;
-  height: 5rem;
+  width: 4rem;
+  height: 4rem;
   background-color: rgb(149, 193, 31);
   border-radius: 50%;
   float: left;
@@ -111,8 +111,8 @@ a {
   margin: 0 auto;
   margin-left: 1rem;
   margin-right: 1rem;
-  width: 5rem;
-  height: 5rem;
+  width: 4rem;
+  height: 4rem;
   background-color: rgb(149, 193, 31);
   border-radius: 50%;
   float: left;
@@ -122,20 +122,20 @@ a {
   background-size: 3rem 3rem;
   background-position: center;
   background-repeat: no-repeat;
-  width: 5rem;
-  height: 5rem;
+  width: 4rem;
+  height: 4rem;
   margin: 0 auto;
 }
 .otro {
-  top: 2rem;
+  top: 1.5rem;
   margin-left: 1rem;
-  width: 3rem;
+  width: 2rem;
   position: relative;
 }
 .otros {
   background-color: rgba(36, 36, 36, 0.3);
-  width: 5rem;
-  height: 5rem;
+  width: 4rem;
+  height: 4rem;
   border-radius: 50%;
   margin: 0 auto;
   position: relative;
