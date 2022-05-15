@@ -31,6 +31,16 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
+.oscurecer{
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 3rem;
+  width: 4rem;
+  height: 4rem;
+  margin: 0 auto;
+  position: relative;
+  border-radius: 50%;
+  cursor: pointer;
+}
 .nombre {
   margin: 0 auto;
   margin-top: 1rem;
@@ -39,6 +49,19 @@ body {
   font-size: 2.5em;
   text-align: center;
   color: white;
+}
+input {
+  position: relative;
+  background-color: white;
+  margin:auto;
+  width: 15rem;
+  display: block;
+  height: 2rem;
+  border-radius: 1rem;
+  border: 1px solid rgb(149, 193, 31);
+  font-size: .5em;
+  text-align: center;
+  color: black;
 }
 .mail {
   margin: 0 auto;
@@ -84,6 +107,7 @@ body {
 .modif {
   background-color: white;
   margin: 0 auto;
+  margin-top: 3rem;
   width: 9rem;
   height: 2.3rem;
   font-size: 1em;
