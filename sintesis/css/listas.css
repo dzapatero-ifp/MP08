@@ -21,8 +21,9 @@ body {
 .listas {
   width: 100%;
   margin: 0 auto;
-  height: 36rem;
+  height: 34rem;
   margin-top: 2rem;
+  overflow-y: scroll;
 }
 .lista {
   position: relative;
