@@ -1,3 +1,82 @@
+@media screen and (min-width:951px) and (orientation:landscape){
+  .buscar {
+    height: 2rem;
+    width: 40rem;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 1rem;
+  }
+  .productos {
+    width: 44rem;
+    margin: 0 auto;
+    height: 30rem;
+    margin-top: 2rem;
+    overflow-y: scroll;
+  }
+  .producto {
+    position: relative;
+    margin: 0 auto;
+    width: 21rem;
+    display: inline-grid;
+    height: 5rem;
+    background-color: red;
+    cursor: pointer;
+    border: 0.1px solid rgb(149, 193, 31);
+  }
+}
+@media screen and (max-width:950px) and (min-width:650px){
+  .buscar {
+    height: 2rem;
+    width: 40rem;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 1rem;
+  }
+  .productos {
+    width: 44rem;
+    margin: 0 auto;
+    height: 30rem;
+    margin-top: 2rem;
+    overflow-y: scroll;
+
+  }
+  .producto {
+    position: relative;
+    margin: 0 auto;
+    width: 21rem;
+    display: inline-grid;
+    height: 5rem;
+    background-color: red;
+    cursor: pointer;
+    border: 0.1px solid rgb(149, 193, 31);
+  }
+}
+
+@media screen and (max-width:649px){
+  .buscar {
+    height: 2rem;
+    width: 20rem;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 1rem;
+  }
+  .productos {
+    width: 100%;
+    margin: 0 auto;
+    height: 30rem;
+    overflow-y: scroll;
+    margin-top: 2rem;
+  }
+  .producto {
+    position: relative;
+    margin: 0 auto;
+    width: 21rem;
+    height: 5rem;
+    background-color: red;
+    cursor: pointer;
+    border: 0.1px solid rgb(149, 193, 31);
+  }
+}
 body {
   width:100%;
 }
@@ -78,35 +157,13 @@ input[type=checkbox] {
   text-align: center;
 
 }
-.buscar {
-  height: 2rem;
-  width: 20rem;
-  margin: 0 auto;
-  background-color: rgba(0, 0, 0, 0.3);
-  border-radius: 1rem;
-}
+
 .lupa {
   left: 1rem;
   top: 0.3rem;
   height: 1.4rem;
   width: 1.4rem;
   position: relative;
-}
-.productos {
-  width: 100%;
-  margin: 0 auto;
-  height: 30rem;
-  overflow-y: scroll;
-  margin-top: 2rem;
-}
-.producto {
-  position: relative;
-  margin: 0 auto;
-  width: 21rem;
-  height: 5rem;
-  background-color: red;
-  cursor: pointer;
-  border: 0.1px solid rgb(149, 193, 31);
 }
 .producto:nth-child(1) {
   background-color: yellow;
