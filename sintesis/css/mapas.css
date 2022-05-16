@@ -1,6 +1,9 @@
 body {
   width: 100%;
-  background-color: rgb(188, 217, 112);
+  background-image: url(../img/mapa.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .container {
   display: flex;
@@ -9,8 +12,8 @@ body {
   font-family: 'Quicksand', sans-serif;
 }
 .mapa {
-  width: 25rem;
-  height: 40rem;
+  width: 28rem;
+  height: 48rem;
   margin: 0 auto;
   margin-top: 1rem;
 }
@@ -18,7 +21,7 @@ body {
   height: 6rem;
   width: 20rem;
   margin: 0 auto;
-  margin-top: 12rem;
+  margin-top: 14rem;
   position: relative;
 }
 .btn {
@@ -28,7 +31,7 @@ body {
   border: 2px solid rgb(149, 193, 31);
   border-radius: 50%;
   margin-top: 3rem;
-  margin-left: 14rem;
+  margin-left: 14.5rem;
 }
 .opciones {
   width: 100%;
