@@ -9,9 +9,6 @@ body {
   font-family: 'Quicksand', sans-serif;
 }
 .mapa {
-  background-image: url(../img/mapa.png);
-  background-size: cover;
-  background-repeat: no-repeat;
   width: 25rem;
   height: 40rem;
   margin: 0 auto;
