@@ -78,7 +78,7 @@ a {
 @media screen and (max-width:649px){
   body {
     width: 100%;
-    background-image: url(../img/mapa.png);
+    background-image: url(../img/map.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -87,7 +87,7 @@ a {
 @media screen and (max-width:950px) and (min-width:650px){
   body {
     width: 100%;
-    background-image: url(../img/mapapantalla.png);
+    background-image: url(../img/mappantalla.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -96,7 +96,7 @@ a {
 @media screen and (min-width:951px) and (orientation:landscape){
   body {
     width: 100%;
-    background-image: url(../img/mapapantalla.png);
+    background-image: url(../img/mappantalla.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
