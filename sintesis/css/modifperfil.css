@@ -1,3 +1,48 @@
+@media screen and (min-width:951px) and (orientation:landscape){
+  .titulo {
+    width: 20rem;
+    height: 5rem;
+    position: relative;
+    margin: 0 auto;
+  }
+  .texto {
+    position: relative;
+    height: 2.3rem;
+    width:20rem;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 3em;
+    text-align: center;
+  }
+}
+@media screen and (max-width:950px) and (min-width:650px){
+  .titulo {
+    width: 20rem;
+    height: 5rem;
+    position: relative;
+    margin: 0 auto;
+  }
+  .texto {
+    position: relative;
+    height: 2.3rem;
+    width:20rem;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 3em;
+    text-align: center;
+  }
+}
+@media screen and (max-width:649px){
+  .titulo {
+    height: 5rem;
+  }
+  .texto {
+    position: relative;
+    height: 2.3rem;
+    width:20rem;
+    margin-left: 2rem;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 3em;
+  }
+}
 body {
   width: 100%;
   background-color: rgb(149, 193, 31);
@@ -9,17 +54,7 @@ body {
   font-family: 'Quicksand', sans-serif;
   bac
 }
-.titulo {
-  height: 5rem;
-}
-.texto {
-  position: relative;
-  height: 2.3rem;
-  width:20rem;
-  margin-left: 2rem;
-  font-family: 'Quicksand', sans-serif;
-  font-size: 3em;
-}
+
 .pfp {
   margin: 0 auto;
   margin-top: 2rem;

@@ -30,6 +30,7 @@ body {
   text-align: center;
   line-height: 15rem;
   font-size: 3em;
+  cursor: pointer;
 }
 span {
   display: inline-block;

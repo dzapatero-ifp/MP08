@@ -16,6 +16,7 @@ body {
   height: 10px;
   position: relative;
   margin-top: .5rem;
+  margin-right: 1rem;
 }
 .texto {
   position: relative;
@@ -35,6 +36,7 @@ body {
   text-align: center;
   line-height: 3rem;
   font-size: 0.85em;
+  cursor: pointer;
 }
 span {
   display: inline-block;
@@ -65,6 +67,7 @@ input {
 }
 .next {
   margin-bottom: 10rem;
+
 }
 button {
   position: absolute;
@@ -78,7 +81,8 @@ button {
   color: #fff;
   border-radius: 10px;
   border: none;
-  pointer-events:
+  cursor: pointer;
+
 }
 .flechas{
   position: relative;
@@ -94,6 +98,7 @@ button {
   position: relative;
   width: 100%;
   margin: 0 auto;
+  cursor: pointer;
 }
 a {
   color: black;
