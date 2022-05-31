@@ -111,7 +111,18 @@ button {
   margin: 0 auto;
   cursor: pointer;
 }
+
 a {
   color: black;
 
+}
+
+@media screen and (max-aspect-ratio: 16/9) {
+  .datos {
+    margin: 2rem auto;
+  }
+
+  button {
+    bottom: 2rem;
+  }
 }
