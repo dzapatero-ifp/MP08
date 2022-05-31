@@ -120,6 +120,7 @@ a {
 @media screen and (max-aspect-ratio: 16/9) {
   .datos {
     margin: 2rem auto;
+    height: 10rem;
   }
 
   button {
