@@ -41,7 +41,6 @@ html{
   margin: 0 auto;
   margin-top: 4rem;
   margin-bottom: 4rem;
-
   width: 20rem;
   height: 40rem;
   background-color: white;
@@ -53,4 +52,12 @@ html{
 }
 .caja {
   margin: 0 auto;
+}
+@media screen and (max-aspect-ratio: 16/9) {
+  .box {
+    height: 20rem;
+    width: 20rem;
+    line-height: 1.4em;
+    font-size: 1em;
+  }
 }
