@@ -77,8 +77,16 @@
     border: 0.1px solid rgb(149, 193, 31);
   }
 }
+html{
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
 body {
   width:100%;
+  overflow: hidden;
+  margin: 0;
 }
 .container {
   display: flex;

@@ -75,30 +75,32 @@
 a {
   text-decoration: none;
 }
+html{
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+body {
+  width:100%;
+  overflow: hidden;
+  margin: 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 @media screen and (max-width:649px){
   body {
-    width: 100%;
     background-image: url(../img/map.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
   }
 }
 @media screen and (max-width:950px) and (min-width:650px){
   body {
-    width: 100%;
     background-image: url(../img/mappantalla.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
   }
 }
 @media screen and (min-width:951px) and (orientation:landscape){
   body {
-    width: 100%;
     background-image: url(../img/mappantalla.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
   }
 }
