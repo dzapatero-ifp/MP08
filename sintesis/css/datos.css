@@ -125,4 +125,7 @@ a {
   button {
     bottom: 2rem;
   }
+  .google {
+    margin-top: 2rem;
+  }
 }
