@@ -54,7 +54,7 @@ span {
 }
 .datos {
   width: 100%;
-  height: 30rem;
+  height: 20rem;
   color: white;
   margin: 5rem auto;
   margin-bottom: 0.5rem;
@@ -74,18 +74,13 @@ input {
   text-align: center;
   color: black;
 }
-.next {
-  margin-bottom: 10rem;
 
-}
 button {
-  position: fixed;
-  margin: auto;
-  left: 0;
-  right: 0;
+  position: relative;
+  margin: 0 auto;
   bottom: 1rem;
   width: 100%;
-  height: 8rem;
+  height: 4rem;
   line-height: 30px;
   background: rgb(149, 193, 31);
   color: #fff;
@@ -94,10 +89,16 @@ button {
   cursor: pointer;
 
 }
+
+.next {
+  width: 80%;
+  margin: 0 auto;
+}
+
 .flechas{
   position: relative;
-  height: 4rem;
-  width: 5rem;
+  height: 2rem;
+  width: 2rem;
   margin: 0 auto;
   overflow: hidden;
 }
