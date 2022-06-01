@@ -20,7 +20,7 @@ body {
   height: 10px;
   position: relative;
   margin-bottom: 1rem;
-  margin-right: 1rem;
+  margin-left: 1rem;
 }
 #cuadrouno {
   width: 25rem;
@@ -323,4 +323,9 @@ body {
 }
 a {
   text-decoration: none;
+}
+@media screen and (max-aspect-ratio: 16/9) {
+  .cuadrodos {
+    height: 15rem;
+  }
 }

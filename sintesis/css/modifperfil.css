@@ -229,3 +229,14 @@ input {
 a {
   text-decoration: none;
 }
+@media screen and (max-aspect-ratio: 16/9) {
+  .pfp {
+    height: 6rem;
+    width: 6rem;
+  }
+  .oscurecer {
+    height: 3rem;
+    width: 3rem;
+    padding: 1.5rem;
+  }
+}
