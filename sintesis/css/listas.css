@@ -307,3 +307,8 @@ h1 {
 a {
   text-decoration: none;
 }
+@media screen and (max-aspect-ratio: 16/9) {
+  .listas {
+    height: 15rem;
+  }
+}

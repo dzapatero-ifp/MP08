@@ -38,7 +38,8 @@ body {
   width: 100%;
   margin: 0 auto;
   height: 36rem;
-  margin-top: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
 }
 .tema {
   position: relative;
@@ -81,30 +82,36 @@ body {
 .tema:nth-child(5) {
   background-image: url(../img/temacinco.png);
 }
-.next {
-  margin-bottom: 10rem;
-}
 button {
-
-  position: fixed;
-  bottom: 0;
-  margin: auto;
-  margin-top: 3.8rem;
-  left: 0;
-  right: 0;
+  position: relative;
+  margin: 0 auto;
+  bottom: 1rem;
   width: 100%;
-  height: 8rem;
+  height: 4rem;
   line-height: 30px;
   background: rgb(149, 193, 31);
   color: #fff;
   border-radius: 10px;
   border: none;
-  pointer-events:
+  cursor: pointer;
+
 }
+
+.next {
+  width: 80%;
+  margin: 0 auto;
+}
+
 .flechas{
   position: relative;
-  height: 4rem;
-  width: 5rem;
+  height: 2rem;
+  width: 2rem;
   margin: 0 auto;
   overflow: hidden;
+}
+@media screen and (max-aspect-ratio: 16/9) {
+  .temas {
+    height: 14.5rem;
+    overflow-y: scroll;
+  }
 }

@@ -35,11 +35,11 @@ body {
   margin-right: 1rem;
 }
 .sentencia {
-  height: 4rem;
+  height: 2rem;
   margin: 0 auto;
   position: relative;
-  margin-top: 4rem;
-  margin-bottom: 4rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
 
 
 }
@@ -55,9 +55,8 @@ body {
   width: 18rem;
   position: relative;
   margin: 0 auto;
-  height: 30rem;
+  height: 5rem;
   color: white;
-  margin-bottom: 0.5rem;
   text-align: center;
   line-height: 2rem;
 }
@@ -76,24 +75,23 @@ input {
 .tema {
   position: relative;
   margin: 0 auto;
-  width: 20rem;
-  height: 6rem;
+  width: 18rem;
+  height: 5.5rem;
   background-image: url(../img/temauno.png);
   background-size: cover;
   background-repeat: no-repeat;
-  margin-top: -25rem;
   text-decoration: none;
   box-shadow: 5px 5px rgba(0, 0, 0, 0.5);
 }
 .selecciona {
   background-color: rgba(149, 193, 31, 0.3);
   text-align: center;
-  width: 20rem;
-  height: 6rem;
+  width: 18rem;
+  height: 5.5rem;
   font-weight: bold;
   font-size: 2em;
   color: white;
-  line-height: 6rem;
+  line-height: 5.5rem;
   text-decoration: none;
 }
 a {
@@ -101,7 +99,8 @@ a {
 }
 .puntos {
   margin: 0 auto;
-  margin-top: -12rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
   position: relative;
   width: 28rem;
   float: left;
@@ -172,14 +171,9 @@ background-size: 3rem 3rem;
 background-position: center;
 background-repeat: no-repeat;
 }
-.next {
-  margin-bottom: 10rem;
-}
 button {
   position: relative;
-  margin: auto;
-  left: 0;
-  right: 0;
+  margin: 0 auto;
   bottom: 1rem;
   width: 100%;
   height: 4rem;
@@ -191,10 +185,58 @@ button {
   cursor: pointer;
 
 }
+
+.next {
+  width: 80%;
+  margin: 0 auto;
+}
+
 .flechas{
   position: relative;
   height: 2rem;
   width: 2rem;
   margin: 0 auto;
   overflow: hidden;
+}
+@media screen and (max-aspect-ratio: 16/9) {
+  .puntos {
+    width: 20rem;
+  }
+  .punto{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    width: 4rem;
+    height: 4rem;
+    background-color: rgb(149, 193, 31);
+    border-radius: 50%;
+    float: left;
+  }
+  .anadir {
+    margin: 0 auto;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    width: 4rem;
+    height: 4rem;
+    background-color: rgb(149, 193, 31);
+    border-radius: 50%;
+    float: left;
+  }
+  .plus {
+    background-image: url(../img/anadir.svg);
+    background-size: 2rem 2rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 4rem;
+    height: 4rem;
+    margin: 0 auto;
+  }
+  .otro {
+    top: 1.4rem;
+    margin-left: 1rem;
+    width: 2rem;
+  }
+  .otros {
+    width: 4rem;
+    height: 4rem;
+  }
 }

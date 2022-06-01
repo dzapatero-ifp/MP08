@@ -45,3 +45,12 @@ span {
   vertical-align: middle;
   line-height: normal;
 }
+@media screen and (max-aspect-ratio: 16/9) {
+  .user {
+    height: 6rem;
+    margin: 0.5rem auto;
+    line-height: 6rem;
+    font-size: 1.5em;
+    width: 80%;
+  }
+}
